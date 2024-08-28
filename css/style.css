@@ -495,8 +495,8 @@ body {
 }
 
 .container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	/* display: grid;
+	grid-template-columns: 1fr 1fr; */
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -562,7 +562,7 @@ body {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .happiness {
