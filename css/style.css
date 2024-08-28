@@ -353,7 +353,12 @@
 body {
 	font-family: Arial, Helvetica, Sans-serif;
 }
-
+.bg-image{
+	background: url('../assets/img/clickme.jpg');
+}
+.d-none{
+	display: none;
+}
 img {
 	max-width: 100%;
 	height: auto;

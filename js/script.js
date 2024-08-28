@@ -22,7 +22,15 @@
  */
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
+    var body = $('body');
+    if ( body.is('.bg-image') ){
+        body.removeClass('bg-image');
+        $('.main-content').removeClass('d-none');
+    }
 });
+// window.onload = function () {
+//     document.getElementById("my_audio").play();
+// }
 
 // Set the date we're counting down to
 var countDownDate = new Date("Sep 25, 2024 21:00:00").getTime();
@@ -84,6 +92,6 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 25th Sep, 2023!', styles);
+console.log('\n\n%c SAVE THE DATE: 25th Sep, 2024!', styles);
 
 console.log('%cYour presence is requested!%c\n\nRegards: Abdulalim Abdo', styles1, styles2);
